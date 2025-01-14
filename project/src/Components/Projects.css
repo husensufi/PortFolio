@@ -1,0 +1,50 @@
+/* Projects.css */
+
+.projects-container {
+/* background-color: #bdc9d3; */
+  margin: 35px;
+}
+
+.projects-title {
+  text-align: center; /* Center-align the title */
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 40px; /* Increased space between the title and the cards */
+}
+
+.projects-row {
+  display: flex;
+  justify-content: space-between; /* Distribute the cards evenly */
+  gap: 20px; /* Add space between the cards */
+  margin: 20px 0;
+}
+
+.card {
+  width: 18rem; /* Fixed width for each card */
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

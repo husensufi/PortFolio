@@ -1,0 +1,30 @@
+/* Resume.css */
+
+.resume-section {
+    background-color: #f4f4f4;
+  }
+  
+  .resume-container {
+    margin-top: 30px;
+  }
+  
+  .resume-container object {
+    width: 100%;
+    height: 600px;
+    border: none;
+  }
+  
+  .resume-container a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .resume-container a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
