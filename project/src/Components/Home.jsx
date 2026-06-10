@@ -13,7 +13,7 @@ const Home = () => {
 
       {/* Right Section: Text */}
       <div className="home-text">
-        <h1 className="home-title">Hi, I'm Husen Basha</h1>
+        <h1 className="home-title">Hi, I&apos;m Husen Basha</h1>
         <p className="home-subtitle">MCA Graduate | Full Stack Developer | Tech Enthusiast</p>
         <p className="home-description">
           Hello!
@@ -26,7 +26,7 @@ const Home = () => {
 
         </p>
         <p className="home-description">
-          I'm constantly learning and growing in the field of software engineering.
+          I&apos;m constantly learning and growing in the field of software engineering.
         </p>
         <p className="home-description">
           Feel free to explore my work and get in touch!

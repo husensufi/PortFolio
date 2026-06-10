@@ -1,4 +1,3 @@
-import React from 'react';
 import './Contact.css';
 import contactImage from '../assets/contact_us.jpg';  // Replace with the actual image path
 import { FaEnvelope, FaWhatsapp, FaLinkedin, FaInstagram } from 'react-icons/fa'; // Import icons
@@ -14,7 +13,7 @@ const Contact = () => {
       {/* Right Section: Content */}
       <div className="contact-content">
         <h1 className="contact-title">Contact Us</h1>
-        <p className="contact-subtitle">We'd love to hear from you!</p>
+        <p className="contact-subtitle">We&apos;d love to hear from you!</p>
         <form className="contact-form">
           <label htmlFor="name" className="contact-label">Name</label>
           <input type="text" id="name" name="name" className="contact-input" />

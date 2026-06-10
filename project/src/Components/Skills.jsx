@@ -1,6 +1,6 @@
 //import React from 'react';
 import "./Skills.css"
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGit, FaJsSquare, FaJava, FaDocker, FaGithub, FaServer } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGit, FaJsSquare, FaJava, FaDocker, FaGithub, FaServer, FaDatabase } from 'react-icons/fa';
 import { SiMongodb } from 'react-icons/si';
 
 const SkillWithProgress = ({ skill, level, icon }) => (
@@ -44,7 +44,7 @@ const Skills = () => {
                 </div>
                 <div className="skill-category">
                     <h3>Data Bases</h3>
-                    <SkillWithProgress skill="MySQL" level={70} icon={<faDatabase size={30} color="#f34f29" />} />70%
+                    <SkillWithProgress skill="MySQL" level={70} icon={<FaDatabase size={30} color="#f34f29" />} />70%
                     <SkillWithProgress skill="Mongo DB" level={85} icon={<SiMongodb size={30} color="green" />} />85%%
                     
                 </div>
