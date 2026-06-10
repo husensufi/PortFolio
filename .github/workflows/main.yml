@@ -1,12 +1,27 @@
-name: First Workflow
+name: Vite React Build
 
 on:
   push:
+    branches:
+      - github-actions-learning
 
 jobs:
-  hello:
+  build:
+
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print Message
-        run: echo "Hello Husen"
+
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Vite Application
+        run: npm run build
