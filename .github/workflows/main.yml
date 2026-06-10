@@ -6,7 +6,7 @@ on:
       - github-actions-learning
 
 jobs:
-  build:
+  build: 
 
     runs-on: ubuntu-latest
 
